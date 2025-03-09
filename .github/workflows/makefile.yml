@@ -12,8 +12,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
   
-    - name: Install dependencies
+    - name: Make all
       run: make all
+    - name: dir the dir
+      run: |
+        cd ${{ github.workspace }}
+        dir
+        exit -9
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.1
       with:
