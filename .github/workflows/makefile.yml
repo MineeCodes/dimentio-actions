@@ -23,4 +23,5 @@ jobs:
       uses: actions/upload-artifact@v4.6.1
       with:
          # Artifact name
-         name: dementio.deb # optional, default is artifact
+         name: dementio.deb 
+         path: ${{ github.workspace }}/dementio# optional, default is artifact
