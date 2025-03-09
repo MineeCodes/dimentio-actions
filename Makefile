@@ -1,6 +1,6 @@
 .PHONY: all macos clean
 
-ROOTLESS 						:= 0
+ROOTLESS 						:= 1
 RPREFIX 	 					:= "/usr"
 RLPREFIX 	 					:= "/var/jb/usr"
 
