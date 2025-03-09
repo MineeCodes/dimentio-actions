@@ -23,4 +23,4 @@ jobs:
       with:
          # Artifact name
          name: dementio.deb 
-         path: ${{ github.workspace }}/dementio# optional, default is artifact
+         path: ${{ github.workspace }}/dementio # optional, default is artifact
